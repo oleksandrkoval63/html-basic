@@ -1,0 +1,31 @@
+* {
+   margin: 0;
+   padding: 0;
+   border: none;
+}
+body {
+   height: 100vh;
+}
+header,
+main,
+footer {
+   display: flex;
+}
+header {
+   background-color: #f0f0f0;
+   height: 30vh;
+   justify-content: flex-start;
+   align-items: center;
+}
+main {
+   background-color: #e0e0e0;
+   height: 40vh;
+   justify-content: center;
+   align-items: center;
+}
+footer {
+   background-color: #d0d0d0;
+   height: 30vh;
+   justify-content: flex-end;
+   align-items: center;
+}
