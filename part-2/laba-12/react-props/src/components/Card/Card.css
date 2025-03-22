@@ -1,11 +1,4 @@
-.card-wrapper {
-   background: #fff;
-   padding: 20px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   text-align: center;
-   color: #000;
-   min-width: 300px;
-   align-items: center;
+.card-wrapper img {
+   width: 400px;
+   height: 300px;
 }

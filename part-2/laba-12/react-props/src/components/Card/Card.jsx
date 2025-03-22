@@ -1,14 +1,19 @@
 import "./Card.css";
+import { Button, Card, CardContent } from "@mui/material";
 
-const Card = ({ title }) => {
+const CardItem = ({ title, img, desc }) => {
    return (
       <div className="card-wrapper">
-         <h2>Card</h2>
-         <button type="button" onClick={() => alert(title)}>
-            Дізнатися більше
-         </button>
+         <Card>
+            <CardContent>
+               <h2>Card</h2>
+               <img src={img} alt="hero"></img>
+               <p>{desc}</p>
+               <Button onClick={() => alert(title)}>Дізнатися більше</Button>
+            </CardContent>
+         </Card>
       </div>
    );
 };
 
-export default Card;
+export default CardItem;

@@ -1,11 +1,11 @@
-import Card from "../Card/Card";
+import CardItem from "../Card/Card";
 import "./CardsList.css";
 
 const CardsList = ({ cards }) => {
    return (
       <div className="cards-list">
          {cards.map((card) => (
-            <Card
+            <CardItem
                key={card.id}
                title={card.title}
                desc={card.description}

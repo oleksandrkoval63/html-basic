@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { Button, Card, CardContent } from "@mui/material";
+
 import "./ColorBlock.css";
 
 const ColorBlock = () => {
@@ -14,14 +16,22 @@ const ColorBlock = () => {
 
    return (
       <div className="color-block-wrapper">
-         <h1>ColorBlock</h1>
-         <div
-            className="color-block"
-            style={{ backgroundColor: color, width: "200px", height: "200px" }}
-         ></div>
-         <button type="button" onClick={handleChangeColor}>
-            Change Color
-         </button>
+         <Card>
+            <CardContent>
+               <h1>ColorBlock</h1>
+               <div
+                  className="color-block"
+                  style={{
+                     backgroundColor: color,
+                     width: "200px",
+                     height: "200px",
+                  }}
+               ></div>
+               <Button variant="contained" onClick={handleChangeColor}>
+                  Change Color
+               </Button>
+            </CardContent>
+         </Card>
       </div>
    );
 };
