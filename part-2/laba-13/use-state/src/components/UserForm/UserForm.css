@@ -1,0 +1,38 @@
+.card-wrapper {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   align-items: center;
+   margin-top: 20px;
+}
+
+.card-item {
+   background: #fff;
+   border-radius: 8px;
+   padding: 20px;
+   width: 100%;
+   color: #000;
+}
+.card-item ul {
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   padding: 0;
+   margin: 0;
+}
+.form-wrapper {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   background: #fff;
+   border-radius: 8px;
+   padding: 20px;
+}
+.form-item {
+   display: inline-flex;
+   align-items: center;
+   flex-direction: column;
+   gap: 10px;
+   color: #000;
+}
